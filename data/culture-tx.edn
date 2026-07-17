@@ -1,0 +1,15 @@
+;; data/culture-tx.edn — DataScript tx-data derived from src/culture/facts.cljc
+;; `culture.facts/catalog` (ADR-2607171400 addendum 2, Wave 1 country-level).
+;; Same shape across every cloud-itonami-iso3166-* sibling. Do not hand-edit;
+;; regenerate from the catalog.
+
+[
+#:culture{:id "syc.dish.ladob", :name "Ladob", :country "SYC", :kind :dish, :summary "Seychellois dish eaten either savoury or as a dessert; the sweet version combines ripe plantain and sweet potatoes with coconut milk, sugar, nutmeg and vanilla.", :url "https://en.wikipedia.org/wiki/Ladob", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+#:culture{:id "syc.dish.kat-kat-banane", :name "Kat-kat banane", :country "SYC", :kind :dish, :summary "Seychellois dish of green bananas and fish cooked in coconut milk.", :url "https://en.wikipedia.org/wiki/Seychellois_cuisine", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+#:culture{:id "syc.dish.kari-koko", :name "Kari koko", :country "SYC", :kind :dish, :summary "Seychellois coconut curry made with various proteins.", :url "https://en.wikipedia.org/wiki/Seychellois_cuisine", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+#:culture{:id "syc.product.coco-de-mer", :name "Coco de mer", :country "SYC", :kind :product, :summary "Lodoicea maldivica palm species endemic to the Seychelles islands of Praslin and Curieuse, producing the largest seed in the plant kingdom.", :url "https://en.wikipedia.org/wiki/Lodoicea", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+#:culture{:url "https://en.wikipedia.org/wiki/Montea", :id "syc.festival.moutya", :kind :festival, :name-local "Moutia", :country "SYC", :retrieved-at "2026-07-17", :summary "Traditional Seychellois dance similar to Sega, danced to drums made from dried goatskin with songs describing daily life; inscribed on UNESCO's Intangible Cultural Heritage List of Humanity in 2021.", :name "Moutya", :url-provenance :wikipedia-en}
+#:culture{:id "syc.festival.sega", :name "Sega", :country "SYC", :kind :festival, :summary "Music and dance genre popular in Seychelles (as well as Mauritius, Agalega and Rodrigues), with the Seychellois form's music and dances differing from other islands.", :url "https://en.wikipedia.org/wiki/Sega_(genre)", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+#:culture{:id "syc.heritage.aldabra-atoll", :name "Aldabra Atoll", :country "SYC", :kind :heritage, :summary "One of two UNESCO World Heritage Sites in Seychelles, designated on 19 November 1982 and managed by the Seychelles Islands Foundation.", :url "https://en.wikipedia.org/wiki/Aldabra", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+#:culture{:id "syc.heritage.vallee-de-mai", :name "Vallée de Mai", :country "SYC", :kind :heritage, :summary "Nature reserve on Praslin, Seychelles, home of the coco de mer palm; inscribed by UNESCO as a World Heritage Site in 1983, one of the organization's smallest natural sites.", :url "https://en.wikipedia.org/wiki/Vall%C3%A9e_de_Mai", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+]
