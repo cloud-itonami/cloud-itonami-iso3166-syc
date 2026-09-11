@@ -51,8 +51,8 @@ compliance department.
 | Ops | `:engagement/intake` · `:jurisdiction/assess` · `:filing/draft` · `:filing/submit` |
 | Flagship HARD check | `director-conviction-disqualifying` (Public Procurement Act, 2008 s.90(1)(d): a bidder, or any of its directors/officers, convicted of a criminal offence related to professional conduct or false statements within a THREE-YEAR lookback of the procurement proceedings' commencement is disqualified -- independently recomputed from the engagement's own declared conviction/submission dates, see `docs/adr/0001-architecture.md`) |
 | Compliance catalog | `src/statute/facts.cljk` -- Companies Act (Cap. 40), Employment Act (Cap. 69), Beneficial Ownership Act 2020 |
-| Tests | `clojure -M:dev:test` |
-| Demo | `clojure -M:dev:run` |
+| Tests | `kbb -M:dev:test` |
+| Demo | `kbb -M:dev:run` |
 | Architecture ADR | [`docs/adr/0001-architecture.md`](docs/adr/0001-architecture.md) |
 
 `:filing/submit` is never in any phase's `:auto` set -- human sign-off
